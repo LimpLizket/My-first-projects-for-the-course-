@@ -1,0 +1,75 @@
+#name {
+    margin-left: 5px;
+    color: rgb(28, 188, 188);
+    font-family: 'Jost', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#name::first-letter {
+    font-weight: 900;
+}
+
+.menu {
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding-right: 15px;
+    padding-bottom: 40px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+#wiki {
+    color: blue;
+}
+
+#wiki:visited {
+    color: brown;
+}
+
+a,
+div,
+h2,
+p {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Flex', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+
+#city {
+    font-family: 'Jost', sans-serif;
+    font-style: oblique;
+    background-color: antiquewhite;
+}
+
+#paris {
+    width: 60%;
+}
+
+.button {
+    position: absolute;
+    margin: 0%;
+    left: 20%;
+    top: 3%;
+    border: 1px solid rgb(28, 188, 188);
+    box-shadow: 0 0 5px black;
+}
+
+#logo {
+    margin: 0%;
+    left: 20%;
+    top: 5%;
+    width: 40px;
+    height: 40px;
+}
+
+.button:focus,
+.button:active,
+.button:active {
+    border: 6px solid blue;
+}

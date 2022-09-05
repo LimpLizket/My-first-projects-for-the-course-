@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Имя</legend>
+            <div>
+                <label for="name">Питомца зовут:</label>
+                <input type="text" name="name" id="name" placeholder="Рыжик" />
+            </div>
+            <br>
+            <div>
+                <label for="owner">Имя владельца:</label>
+                <input type="text" name="owner" id="owner" placeholder="Анна" />
+            </div>
+            <br>
+            <div>
+                <label for="contact">Контакты владельца:</label>
+                <input type="tel" name="contact" id="contact" placeholder="(+7)9288277055" />
+            </div>
+        </fieldset>
+
+        <p>Тип породы:</p>
+        <div>
+            <select>
+                <option value="type1">Метис двух пород</option>
+                <option value="type2">Смешанная ("дворная")</option>
+                <option value="type3">Чистокровная (имеются документы)</option>
+                <option value="type4">Чистокровная (документов нет)</option>
+                
+            </select>
+        </div>
+
+        <p>Тип корма, которым питается Ваш питомец:</p>
+        <div>
+            <input type="radio" name="food" value="dry" id="dryfood" />
+            <label for="dryfood">Сухой</label><br>
+            <input type="radio" name="food" value="wet" id="wetfood" />
+            <label for="wetfood">Влажный</label><br>
+            <input type="radio" name="food" value="natural" id="naturalfood" />
+            <label for="naturalfood">Натуральный</label> <br>
+            <input type="radio" name="food" value="all" id="allfood" />
+            <label for="allfood">Всегда по-разному</label>
+        </div>
+
+        <p>Пол питомца:</p>
+        <div>
+            <input type="radio" name="petsex" value="male" id="malepet" />
+            <label for="malepet">Самец</label>
+            <input type="radio" name="petsex" value="female" id="femalepet" />
+            <label for="femalepet">Самка</label>
+        </div>
+
+        <div>
+            <br>
+            <fieldset>
+                <legend>Активность</legend>
+                <input type="checkbox" name="activity" value="1" />
+                <label for="malepet">Любит поспать</label><br>
+                <input type="checkbox" name="activity" value="2" />
+                <label for="femalepet">Очень активный на протяжении дня</label><br>
+                <input type="checkbox" name="activity" value="3" />
+                <label for="femalepet">Много ест</label><br>
+                <input type="checkbox" name="activity" value="4" />
+                <label for="femalepet">Мало ест</label><br>
+                <input type="checkbox" name="activity" value="5" />
+                <label for="femalepet">Часто издает звуки</label><br>
+                <input type="checkbox" name="activity" value="6" />
+                <label for="femalepet">Нечасто издает звуки</label>
+            </fieldset>
+        </div>
+
+        <p>Дополнительная информация о питомце:</p>
+        <div>
+             <textarea rows="10">Поведение, болезни, привычки и тд.</textarea>
+        </div>
+
+        <div>Прикрепите фотографию Вашего питомца <input type="file"></div>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+
+</html>
