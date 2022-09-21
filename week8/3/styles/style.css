@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'IntroRegular';
+    src: url('./fonts/IntroRegular.woff') format('woff');
+}
+
+
+.header__content__browser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 40px;
+
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.15));
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 0.5;
+}
+
+
+.header__content__brand {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: auto;
+}
+
+.header__content__brand__svg {
+    display: flexbox;
+    margin-left: 76px;
+    margin-top: 59.28px;
+}
+
+.header__content__brand__button {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    margin-left: 74px;
+
+    width: 115px;
+    height: 38px;
+
+    background: #5222D0;
+    border-radius: 100px;
+    border-color: transparent;
+
+    font-family: 'IntroRegular';
+    src: url('./fonts/IntroRegular.woff') format('woff');
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;
+
+    color: #FFFFFF;
+}
+
+.header__content__brand__button_image {
+    display: flexbox;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 740px;
+
+    background-image: url(/week8/3/img/pic.svg);
+    background-repeat: no-repeat;
+    background-position-x: 657px;
+    background-position-y: 10px;
+}
+
+
+.main__content__headline {
+    display: flexbox;
+    width: 542px;
+    height: 166px;
+    margin-left: 126px;
+    margin-top: 83px;
+
+    font-family: 'IntroRegular';
+    src: url('./fonts/IntroRegular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+
+    color: #000000;
+
+}
+
+.main__content__paragraph {
+    display: flexbox;
+    width: 487px;
+    height: 96px;
+    margin-left: 126px;
+    margin-top: 20px;
+
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+
+    color: #000000;
+}
+
+.main__content__btn {
+    display: flexbox;
+    margin-left: 116px;
+    right: 0%;
+    margin-top: 15px;
+    bottom: 0%;
+    width: 270px;
+    height: 84px;
+
+    background: #5222D0;
+    border-radius: 100px;
+    border-color: transparent;
+
+    font-family: 'IntroRegular';
+    src: url('./fonts/IntroRegular.woff') format('woff');
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+.main__content__btn_image {
+    display: flexbox;
+}
+
+.nav__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  
+    width: auto;
+    height: 90px;
+    margin-left: 63px;
+
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;    
+
+    list-style-type: none;
+}
+
+.nav__content__element {
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.nav__content__element__link {
+    text-decoration: none;
+}
