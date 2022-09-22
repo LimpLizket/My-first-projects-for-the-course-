@@ -30,7 +30,7 @@
 .header__content__brand {
     display: flex;
     justify-content: space-between;
-    width: 1280px;
+    width: 1440px;
     height: auto;
 }
 
@@ -46,7 +46,7 @@
     align-self: flex-end;
     justify-content: center;
     align-items: center;
-    margin-left: 74px;
+    margin-right: 74px;
 
     width: 115px;
     height: 38px;
