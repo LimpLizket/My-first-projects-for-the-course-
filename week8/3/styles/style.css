@@ -4,11 +4,10 @@
 }
 
 
-.header__content__browser {
+.header__browser {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1440px;
     height: 40px;
 
     filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.15));
@@ -27,20 +26,19 @@
 }
 
 
-.header__content__brand {
+.header__brand {
     display: flex;
     justify-content: space-between;
-    width: 1440px;
     height: auto;
 }
 
-.header__content__brand__svg {
+.header__svg {
     display: flexbox;
     margin-left: 76px;
     margin-top: 59.28px;
 }
 
-.header__content__brand__button {
+.header__btn {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
@@ -64,7 +62,7 @@
     color: #FFFFFF;
 }
 
-.header__content__brand__button_image {
+.header__btn-image {
     display: flexbox;
     margin-bottom: 5px;
     margin-left: 5px;
@@ -73,17 +71,10 @@
 .main__content {
     display: flex;
     flex-direction: column;
-    width: 1440px;
     height: 740px;
-
-    background-image: url(/week8/3/img/pic.svg);
-    background-repeat: no-repeat;
-    background-position-x: 657px;
-    background-position-y: 10px;
 }
 
-
-.main__content__headline {
+.main__headline {
     display: flexbox;
     width: 542px;
     height: 166px;
@@ -101,7 +92,7 @@
 
 }
 
-.main__content__paragraph {
+.main__paragraph {
     display: flexbox;
     width: 487px;
     height: 96px;
@@ -117,7 +108,7 @@
     color: #000000;
 }
 
-.main__content__btn {
+.main__btn {
     display: flexbox;
     margin-left: 116px;
     right: 0%;
@@ -140,33 +131,35 @@
     color: #FFFFFF;
 }
 
-.main__content__btn_image {
-    display: flexbox;
+.main__background {
+    position: absolute;
+    left: 796px;
+    top: 160px;
 }
 
 .nav__content {
     display: flex;
     flex-direction: row;
     justify-content: start;
-  
+
     width: auto;
-    height: 90px;
+    margin-bottom: 80px;
     margin-left: 63px;
 
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
-    line-height: 160%;    
+    line-height: 160%;
 
     list-style-type: none;
 }
 
-.nav__content__element {
+.nav__element {
     margin-left: 34px;
     margin-right: 34px;
 }
 
-.nav__content__element__link {
+.nav__link {
     text-decoration: none;
 }
