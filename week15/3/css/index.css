@@ -1,23 +1,60 @@
-.plus,
-.minus,
-.mult,
-.div,
-.equals {
-    width: 100px;
-    height: 50px;
+.light-theme {
+    color: #333333;
+    background-color: #eae9f2;
+  }
+  
+  .light-theme .page-header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .light-theme .header-link {
+    color: #6653d9;
+  }
+  
+  .light-theme .button {
+    background-color: #6653d9;
+    color: #ffffff;
+  }
+  
+  .light-theme .subscription-label {
+    color: #6653d9;
+  }
+  
+  .light-theme .subscription-email {
+    border-bottom: 1px solid #6653d9;
+    color: #333333;
+  }
+  
+  .dark-theme {
+    color: #f2f2f2;
+    background-color: #17161a;
+  }
+  
+  .dark-theme .page-header {
+    background-color: #373540;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+  }
+  
+  .dark-theme .header-link {
+    color: #9484f2;
+  }
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-}
-
-.input1,
-.input2,
-.is {
-    width: 40.2%;
-    height: 50px;
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 36px;
-    font-weight: 300;
-}
+  .dark-theme .button {
+    color: #9484f2;
+    border: 1px solid #9484f2;
+  }
+  
+  .dark-theme .theme-button {
+    color: #9484f2;
+    border: 1px solid #9484f2;
+  }
+  
+  .dark-theme .subscription-label {
+    color: #9484f2;
+  }
+  
+  .dark-theme .subscription-email {
+    border-bottom: 1px solid #9484f2;
+    color: #ffffff;
+  }

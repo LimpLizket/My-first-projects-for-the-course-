@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="css\index.css">
-    <title>Calc</title>
-</head>
+    <title>FlashNews!</title>
+  </head>
 
-<body>
-    <input class="input1" id="num1" />
-    <div class="buttons">
-        <button class="plus"onclick="op='+'">+</button>
-        <button class="minus"onclick="op='-'">-</button>
-        <button class="mult"onclick="op='*'">x</button>
-        <button class="div" onclick="op='/'">:</button>
-        <button class="equals" onclick="func()">=</button>
-    </div>
-    <input class="input2" id="num2" />
-    <p class="is" id="result"></p>
+  <body class="page light-theme">
+    <header class="page-header">
+      <div class="container">
+        <a class="header-link" href="#">На главную</a>
+        <button class="theme-button" type="button">Изменить тему</button>
+      </div>
+    </header>
+
+    <main class="inner-main">
+      <div class="container">
+        <h1 class="inner-heading">Подпишитесь на нашу рассылку</h1>
+            <label class="subscription-label" for="subscription-email">email</label>
+            <input type="email" class="subscription-email" placeholder="keks@flashnews.ru" value="" required id="subscription-email">
+          <button class="button subscription-button" type="submit">Подписаться</button>
     <script src="js\index.js"></script>
-</body>
-
+  </body>
 </html>
