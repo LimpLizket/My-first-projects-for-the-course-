@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css\index.css" />
+</head>
+
+<body>
+    <section class="form">
+        <div class="center">
+            <h1>JOIN OVER <b style="color: #daa800 ;">3 000 000</b> PEOPLE ON OUR NETWORK</h1>
+            <hr width="20%" style="border: 1px solid #daa800;">
+            <br>
+
+            <form>
+                <input class="name-surname" type="text" id="InputName" placeholder="Name"/>
+                <input class="name-surname" type="text" id="InputSurname" placeholder="Surname"/>
+                <input type="text" id="InputEmail" placeholder="Email"/>
+                <input type="password" id="InputPassword" onchange="checkPasswordLength(this.value)" placeholder="Password"/>
+                <input type="password" id="InputConfPassword" placeholder="Confirm Password"/>
+                <p>By joining, you agree to our <a href="#">Terms of Service</a></p>
+                <div id="ErrorMessage"></div>
+                <button type="button" id="button" onclick="checkForm()">JOIN</button>
+            </form>
+        </div>
+
+    </section>
+    <script src="js\index.js"></script>
+</body>
+
+</html>
