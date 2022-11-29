@@ -24,8 +24,15 @@ for (let i = 0; i < 10; i++) {
 	alert(i); 
 }
 <br>
-8. <br>
-9. <br>
-10. <br>
-11. <br>
-12. <br>
+8. a,b,function () {
+  alert(arr);
+} — с помощью операции push мы добавили функцию в конец, а затем эта функция вызвала массив, где эта функция является элементом [2];
+<br>
+9. forEach, for, for...of;<br>
+10. document.querySelectorAll('input');<br>
+11. метод sort():
+let numbers = [8, 3, 10];
+numbers.sort((a, b) => a - b);
+в данном случае будет сортировка по возрастанию;
+<br>
+12. С помощью break<br>
