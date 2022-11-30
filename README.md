@@ -43,6 +43,6 @@ alert(arr[0]);<br>
 2. let arr = [0, 1, false, 2, undefined, '', 3, null];<br>
 arr = arr.filter(Boolean);<br>
 alert(arr);<br>
-3.let arr = [[1,2], [1,2,3], [1,2,3,4]];
-let el = arr.findIndex(el=>el.length>3);
-alert(el);<br>
+3.let arr = [[1,2], [1,2,3], [1,2,3,4]];<br>
+let el = arr.findIndex(el=>el.length>3);<br>
+alert(el);
