@@ -1,23 +1,32 @@
-function sumInput() {
+const input = document.querySelector(".inputNumber");
+const oneMoreBtn = document.querySelector(".oneMore");
+const readyBtn = document.querySelector(".ready");
+const error = document.querySelector(".errorMessage");
+const result = document.querySelector(".result");
+const sum = document.querySelector(".sum");
 
-    let numbers = [];
+let arr = [];
 
-    while (true) {
+const addOne = () => {
+  let number = Number(input.value);
+  if (number) {
+    arr.push(number);
+    error.innerHTML = "";
+  } else {
+    error.innerHTML = "Error";
+  }
 
-        let value = prompt("Введите число");
+  result.innerHTML = arr;
+  input.value = "";
+};
 
-        if (value === "" || value === null) break;
+const getSum = () => {
+  let res = 0;
+  for (let i = 0; i < arr.length; i++) {
+    res = res + arr[i];
+  }
+  sum.innerHTML = res;
+};
 
-        numbers.push(+value);
-    }
-
-    alert(numbers.sort((a, b) => a - b));
-
-    let sum = 0;
-    for (let number of numbers) {
-        sum += number;
-    }
-    return sum;
-}
-
-alert(sumInput());
+oneMoreBtn.addEventListener("click", addOne);
+readyBtn.addEventListener("click", getSum);
