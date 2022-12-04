@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cars Calc</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>
+        Choose car details you want and we will help you to calculate
+        everything!
+      </h2>
+      <h3>Select a brand:</h3>
+      <select id="brands" onchange="selectBrand()">
+        <option value="0"></option>
+        <option value="300">Audi</option>
+        <option value="400">Mercedes</option>
+        <option value="500">BMW</option>
+        <option value="600">Porsche</option>
+      </select>
+      <select id="models"></select>
+      <h3>Vehicle age:</h3>
+      <div id="howOld" onchange="selectAge()">
+        <input type="radio" id="ageChoice1" name="carAge" value="2000" />
+        <label for="ageChoice1">Less than 3 years</label>
+        <input type="radio" id="ageChoice2" name="carAge" value="1000" />
+        <label for="ageChoice2">From 3 to 5 years</label>
+        <input type="radio" id="ageChoice3" name="carAge" value="700" />
+        <label for="ageChoice3">From 5 to 7 years</label>
+        <input type="radio" id="ageChoice4" name="carAge" value="300" />
+        <label for="ageChoice4">More than 7 years</label>
+      </div>
+      <h3>Engine capacity (USD 50 per cm³):</h3>
+      <input
+        type="text"
+        id="engine"
+        placeholder="Enter the number"
+        onchange="selectSize()"
+      />
+      <br />
+      <br />
+      <button onclick="getSum()">Calculate</button>
+      <br />
+      <br />
+      <div class="result"></div>
+    </div>
+    <script src="js\index.js"></script>
+  </body>
+</html>
