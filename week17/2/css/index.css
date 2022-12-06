@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.textComment {
+    height: 10vh;
+    width: 70vw;
+    font-size: x-large;
+}
+
+.textComment:invalid {
+    border: 2px solid rgb(186, 17, 17);
+}
+
+.sendComment {
+    height: 8vh;
+    width: 15vw;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-style: none;
+    border-radius: 30px;
+    font-size: large;
+    background-color: rgb(0, 139, 9);
+    color: white;
+}
+
+.commentSection {
+    height: 70vh;
+    width: 70vw;
+    border: rgb(0, 0, 0) solid 1px;
+    margin-bottom: 10px;
+    overflow:scroll;
+}
+
+.comment {
+    font-size: x-large;
+    background-color: rgba(212, 116, 180, 0.264);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+} 
