@@ -21,8 +21,8 @@ function getFio() {
 }
 
 function showNames (data) {
-    name.innerHTML = `Имя: ${data[1]}`;
-    famname.innerHTML = `Отчество: ${data[2]}`;
-    surname.innerHTML = `Фамилия: ${data[0]}`;
+    name.innerHTML = `${data[1]}`;
+    famname.innerHTML = `${data[2]}`;
+    surname.innerHTML = `${data[0]}`;
     fio.value = '';
 }
